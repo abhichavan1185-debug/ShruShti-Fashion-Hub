@@ -369,7 +369,7 @@
   /* ---------- 2 · CATEGORY LANDING ---------- */
   function viewCategory() {
     var cat = S.categories[qs('c')] || S.categories.women;
-    document.title = cat.label + ' — Mahira Select';
+    document.title = cat.label + ' — Shrushti MAHIRA Select';
     $('#bcCat').textContent = cat.label;
     $('#catEyebrow').textContent = cat.eyebrow;
     $('#catTitle').textContent = cat.title;
@@ -417,7 +417,7 @@
       meta = null;
     }
 
-    document.title = (meta ? meta.label : cat.label) + ' — Mahira Select';
+    document.title = (meta ? meta.label : cat.label) + ' — Shrushti MAHIRA Select';
     $('#bcCat').textContent = cat.label;
     $('#bcCat').href = 'category.html?c=' + catKey;
     $('#bcSub').textContent = meta ? meta.label : 'All';
@@ -524,7 +524,7 @@
     var pr = S.byId(qs('p'));
     if (!pr) { location.replace('category.html?c=women'); return; }
     var cat = S.categories[pr.cat];
-    document.title = pr.title + ' — Mahira Select';
+    document.title = pr.title + ' — Shrushti MAHIRA Select';
 
     $('#bcCat').textContent = cat.label; $('#bcCat').href = 'category.html?c=' + pr.cat;
     $('#bcSub').textContent = S.subLabel(pr.cat, pr.sub); $('#bcSub').href = 'shop.html?c=' + pr.cat + '&s=' + pr.sub;

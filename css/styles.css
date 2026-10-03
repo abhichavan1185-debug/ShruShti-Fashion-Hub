@@ -241,6 +241,18 @@ body.is-loading #header::after { opacity: 0; }
 
 /* ---------- brand ---------- */
 .brand { display: block; line-height: 0; will-change: transform; }
+.brand::before, .au-logo::before {
+  content: "SHRUSHTI";
+  display: block;
+  margin-bottom: 2px;
+  color: var(--gold-light);
+  font-family: var(--sans);
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  line-height: 1;
+  text-align: center;
+}
 body.is-loading .brand { pointer-events: none; }
 #brandLogo {
   display: block;

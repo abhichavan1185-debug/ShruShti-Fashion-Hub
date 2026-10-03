@@ -1,6 +1,6 @@
-# Mahira Select — Tradition Meets Tomorrow
+# Shrushti MAHIRA Select — Tradition Meets Tomorrow
 
-Mahira Select is an exquisite, heritage Indian luxury fashion e-commerce storefront. The site celebrates Indian textile artistry, weaving traditions, hand-drawn Kalamkari crafts, Chanderi silks, Chikankari kurta sets, and modern silhouettes.
+Shrushti MAHIRA Select is an exquisite, heritage Indian luxury fashion e-commerce storefront. The site celebrates Indian textile artistry, weaving traditions, hand-drawn Kalamkari crafts, Chanderi silks, Chikankari kurta sets, and modern silhouettes.
 
 ## Features
 
